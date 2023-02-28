@@ -1,0 +1,15 @@
+---
+cluster:
+  name: microk8s-cluster
+argo-cd:
+  secret:
+    createSecret: false
+  repo:
+    # the last bit in this repo `enableit` should be pass as customer-id
+    # OR should I assume this part and take care it in the script ?
+    # leaving this for now
+    url: https://github.com/deepak7340/k8s-config-deepak.git
+    oci: oci://ghcr.io/Obmondo
+    name: microk8s-internal-k8s
+    auth:
+      git: https
