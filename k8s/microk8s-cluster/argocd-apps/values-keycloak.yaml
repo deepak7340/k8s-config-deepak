@@ -15,13 +15,7 @@ keycloak:
       value: "5432"
     - name: DB_DATABASE
       value: keycloak
-    - name: DB_USER
-      valueFrom:
-        secretKeyRef:
-          name: keycloak.keycloak-pgsql.credentials.postgresql.acid.zalan.do
-          key: username
-    - name: DB_PASSWORD
-      valueFrom:
-        secretKeyRef:
-          name: keycloak.keycloak-pgsql.credentials.postgresql.acid.zalan.do
-          key: password
+     - name: DB_USER
+       value: keycloak
+     - name: DB_PASSWORD
+       value: 'yMwIUJ95zlqmo1xrXIAciF6nVwS8t0hBoOzahLhbcCnwNd9JFlAm4kQ9ma8iahku'
