@@ -17,7 +17,6 @@ spec:
     helm:
       valueFiles:
         - values.yaml
-        - /tmp/https___github.com_deepak7340_k8s-config-deepak/k8s/microk8s-cluster/argocd-apps/values-argo-cd.yaml
   syncPolicy:
     syncOptions:
       - ApplyOutOfSyncOnly=true
