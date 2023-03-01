@@ -20,4 +20,4 @@ spec:
   syncPolicy:
     syncOptions:
     - ApplyOutOfSyncOnly=true
-    - CreateNamespace=false
+    - CreateNamespace=true
