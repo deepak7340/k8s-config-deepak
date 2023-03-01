@@ -13,7 +13,7 @@ spec:
   source:
     path: argocd-helm-charts/whoami
     repoURL: https://github.com/obmondo/k8id.git
-    targetRevision: 7132-test-TLS-on-KAM
+    targetRevision: HEAD
     helm:
       valueFiles:
       - values.yaml
