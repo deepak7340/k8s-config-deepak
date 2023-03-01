@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: whoami
+  namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: whoami
+  project: default
+  source:
+    path: argocd-helm-charts/whoami
+    repoURL: https://github.com/obmondo/k8id.git
+    targetRevision: 7132-test-TLS-on-KAM
+    helm:
+      valueFiles:
+      - values.yaml
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+
