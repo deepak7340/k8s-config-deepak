@@ -18,4 +18,4 @@ keycloak:
     - name: DB_USER
       value: "keycloak"
     - name: DB_PASWORD
-      value: "sqPKl7mcRDvITHM9El5T2AogQRRDqLrjs9s8tb7im6tIQcQFRZkRsJusGdoYMHIX"
+      value: "jpX4wg4cFgToFvBmhyQdzTqgov4rjbWxPJ959MMUfoHsfpTEUU8LkdvEwRzAMu2E"
