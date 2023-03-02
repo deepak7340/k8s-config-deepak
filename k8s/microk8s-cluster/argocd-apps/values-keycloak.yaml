@@ -5,6 +5,8 @@ keycloak:
       value: 'true'
     - name: KEYCLOAK_USER
       value: "admin"
+    - name: KEYCLOAK_PASSWORD
+      value: "Keycloak@321"
     # The rest of the list is copied from the obmondo-apps values.yaml,
     # since they are overridden here
     - name: DB_VENDOR
