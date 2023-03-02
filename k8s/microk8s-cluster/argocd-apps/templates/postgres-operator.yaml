@@ -13,7 +13,7 @@ spec:
   source:
     path: argocd-helm-charts/postgres-operator
     repoURL: https://github.com/obmondo/k8id.git
-    targetRevision: HEAD
+    targetRevision: postgress_configmap
     helm:
       valueFiles:
       - values.yaml
