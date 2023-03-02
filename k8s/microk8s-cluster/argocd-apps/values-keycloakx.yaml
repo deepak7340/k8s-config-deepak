@@ -1,0 +1,9 @@
+---
+keycloakx:
+  dbchecker:
+    enabled: true
+
+postgresql:
+  access_secret: keycloakx-pgsql-postgres-pod-env
+  size: 8Gi
+
