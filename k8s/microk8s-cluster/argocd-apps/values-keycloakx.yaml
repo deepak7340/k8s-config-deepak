@@ -2,6 +2,11 @@
 keycloakx:
   dbchecker:
     enabled: true
+  extraEnv: |
+    - name: KEYCLOAK_ADMIN
+      value: admin
+    - name: KEYCLOAK_ADMIN_PASSWORD
+      value: "Keycloak@321"
 
 postgresql:
   enableLogicalBackup: false
