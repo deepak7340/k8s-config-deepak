@@ -2,3 +2,6 @@
 keycloakx:
   dbchecker:
     enabled: true
+
+postgresql:
+  enableLogicalBackup: false
