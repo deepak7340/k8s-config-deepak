@@ -4,5 +4,7 @@ keycloakx:
     enabled: true
 
 postgresql:
-  spec:
-    enableLogicalBackup: false
+  enableLogicalBackup: false
+  extraEnv: |
+    - name: AWS_ACCESS_KEY_ID
+      value: "yD4vyTaNiSnLBEuW6g4KsRHO1/D1ebtmVlqQZEUI"
