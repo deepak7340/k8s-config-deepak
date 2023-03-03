@@ -7,18 +7,6 @@ keycloakx:
       value: admin
     - name: KEYCLOAK_ADMIN_PASSWORD
       value: "Keycloak@321"
-    - name: KC_DB_USERNAME
-      valueFrom:
-        secretKeyRef:
-          key: username
-          name: >-
-            keycloak.keycloakx-pgsql.credentials.postgresql.acid.zalan.do
-    - name: KC_DB_PASSWORD
-      valueFrom:
-        secretKeyRef:
-          key: password
-          name: >-
-            keycloak.keycloakx-pgsql.credentials.postgresql.acid.zalan.do
 
 postgresql:
   enableLogicalBackup: false
