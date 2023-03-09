@@ -13,7 +13,7 @@ spec:
   source:
     path: argocd-helm-charts/keycloakx
     repoURL: https://github.com/obmondo/k8id.git
-    targetRevision: v1.0.0
+    targetRevision: postgress_configmap
     helm:
       valueFiles:
       - values.yaml
