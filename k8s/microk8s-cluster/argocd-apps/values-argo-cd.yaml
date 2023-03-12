@@ -12,9 +12,3 @@ argo-cd:
   server:
     extraArgs:
       - --insecure
-    config:
-      repositories:
-        - type: git
-          url: https://github.com/Obmondo/k8id.git
-        - type: git
-          url: https://github.com/deepak7340/k8s-config-deepak.git
