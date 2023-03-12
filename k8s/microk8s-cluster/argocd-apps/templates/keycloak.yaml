@@ -11,7 +11,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    path: argocd-helm-charts/argo-cd
+    path: argocd-helm-charts/keycloak
     repoURL: https://github.com/Obmondo/k8id.git
     targetRevision: HEAD
     helm:
